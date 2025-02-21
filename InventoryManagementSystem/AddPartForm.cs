@@ -102,6 +102,7 @@ namespace InventoryManagementSystem
                 if (!isInventoryValueBetweenMinMax())
                 {
                     MessageBox.Show("Verify Inventory value is between Min and Max values and Min value is smaller than Max Value.");
+                    return;
                 }
 
                 // Machine ID
